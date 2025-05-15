@@ -4,6 +4,7 @@ header .nav-wrapper {
   width: 100%;
   z-index: 2;
   position: fixed;
+  background: #2159B6;
 }
 
 header nav {
@@ -19,6 +20,9 @@ header nav {
   height: var(--nav-height);
   padding: 0 1rem;
   font-family: var(--body-font-family);
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: .75rem;
 }
 
 header nav[aria-expanded='true'] {
@@ -152,8 +156,9 @@ header .nav-brand {
 }
 
 header nav .nav-brand img {
-  width: 128px;
-  height: auto;
+  width: 150px;
+    height: 77px;
+    margin-left: -170px;
 }
 
 /* sections */
@@ -276,4 +281,14 @@ header nav .nav-sections ul > li > ul > li {
 /* tools */
 header nav .nav-tools {
   grid-area: tools;
+}
+
+header nav .nav-tools .default-content-wrapper {
+  display: flex;
+  column-gap: 2em;
+  align-items: center;
+}
+
+header nav .nav-tools p{
+  font-size: 16px;
 }

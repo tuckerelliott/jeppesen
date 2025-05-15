@@ -19,6 +19,9 @@ main .carousel picture {
   bottom: 0;
   right: 0;
   box-sizing: border-box;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 main .carousel img {
@@ -39,9 +42,10 @@ main .carousel > div {
 }
 
 main .carousel div.carousel-text {
-  max-width: 1200px;
+  max-width: 800px;
   margin: 0 auto;
-  background-color: white;
+  color: #FFF;
+  background-color: #0a2240;
   min-height: 188px;
   padding: 0 28px;
 }
@@ -91,4 +95,26 @@ main .carousel-wrapper > :last-child button {
 
 main .carousel-wrapper > :last-child button.selected {
   background-color: var(--link-color);
+}
+
+.carousel a {
+  font-family: var(--body-font-family);
+  display: inline-block;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: 2px solid #cf2e2e;
+  padding: 1.3125rem .9375rem;
+  text-align: center;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 5px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #cf2e2e;
+  background-color: transparent;
+  margin: 16px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: 5px;
 }

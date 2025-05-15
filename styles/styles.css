@@ -25,13 +25,13 @@
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback;
-  --heading-font-family: var(--body-font-family);
+  --heading-font-family: system-ui;
   --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
 
   /* body sizes */
-  --body-font-size-m: 22px;
+  --body-font-size-m: 1rem;
   --body-font-size-s: 18px;
-  --body-font-size-xs: 16px;
+  --body-font-size-xs: .75rem;
   --body-font-size-xxl: 13px;
   --body-font-size-xl: 12px;
   --body-font-size-l: 11.9px;
@@ -45,7 +45,7 @@
   --heading-font-size-xs: 18px;
 
   /* nav height */
-  --nav-height: 64px;
+  --nav-height: 77px;
 }
 
 @font-face {
@@ -58,11 +58,11 @@
 @media (width >= 900px) {
   :root {
     --heading-font-size-xxl: 60px;
-    --heading-font-size-xl: 48px;
+    --heading-font-size-xl: 2.2rem;
     --heading-font-size-l: 36px;
-    --heading-font-size-m: 30px;
-    --heading-font-size-s: 24px;
-    --heading-font-size-xs: 22px;
+    --heading-font-size-m: 1.25rem;
+    --heading-font-size-s: 1rem;
+    --heading-font-size-xs: .75rem;
   }
 }
 
@@ -74,6 +74,7 @@ body {
   color: var(--text-color);
   background-color: var(--background-color);
   display: none;
+  text-align: center;
 }
 
 body.appear {
@@ -155,19 +156,21 @@ button {
   display: inline-block;
   box-sizing: border-box;
   text-decoration: none;
-  border: 2px solid transparent;
-  padding: 5px 30px;
+  border: 2px solid white;
+  padding: 1.3125rem .9375rem;
   text-align: center;
   font-style: normal;
-  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 5px;
+  font-weight: 700;
   cursor: pointer;
-  color: var(--background-color);
-  background-color: var(--link-color);
+  color: #FFF;
+  background-color: #e14504;
   margin: 16px 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  border-radius: 30px;
+  border-radius: 5px;
 }
 
 a.button:hover,

@@ -1,7 +1,11 @@
 footer {
   padding: 2rem;
-  background-color: var(--light-color);
+  background-color: #000;
+  color: #c9cdd1;
   font-size: var(--body-font-size-s);
+  letter-spacing: .02438rem;
+  padding: .5625rem calc(10px + 2rem) .5625rem 1rem;
+  padding-top: 50px;
 }
 
 footer .footer {
@@ -9,6 +13,24 @@ footer .footer {
   margin: auto;
 }
 
+footer .footer h4 {
+  margin: 0;
+  text-align: left;
+  font-size: .75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .02438rem;
+  padding: .8125rem calc(10px + 2rem) .8125rem 1rem;
+}
+
 footer .footer p {
   margin: 0;
+  text-align: left;
+  font-size: .75rem;
+  letter-spacing: .02438rem;
+  padding: .5625rem calc(10px + 2rem) .5625rem 1rem;
+}
+
+footer a.button:any-link, button {
+  all: unset;
 }

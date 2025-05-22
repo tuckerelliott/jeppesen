@@ -37,3 +37,7 @@
   margin-right: auto;
   margin-top: -120px;
 }
+
+.columns.cta a:any-link {
+  color: #000;
+}

@@ -68,3 +68,25 @@ main .hero-container {
 .hero.cta a.button:any-link, button {
   background-color: #e14504;
 }
+
+.hero.sub {
+  position: relative;
+  padding: 32px;
+  min-height: 282px;
+  text-align: center;
+  background: linear-gradient(107deg, rgba(0, 155, 223, .62), rgb(0, 51, 161));
+  opacity: .73;
+}
+
+.hero.sub h1 {
+  max-width: 1140px;
+  padding: 100px;
+  position: relative;
+  margin-left: -300px;
+  width: 100%;
+}
+
+.hero.sub picture {
+  background: linear-gradient(107deg, rgba(0, 155, 223, .62), rgb(0, 51, 161));
+  opacity: .73;
+}

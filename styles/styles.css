@@ -171,6 +171,7 @@ button {
   overflow: hidden;
   text-overflow: ellipsis;
   border-radius: 5px;
+  text-transform: uppercase;
 }
 
 a.button:hover,
